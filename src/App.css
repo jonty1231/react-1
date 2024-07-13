@@ -1,0 +1,72 @@
+:root{
+  --orangcolor:#FF9933
+}
+
+.hoverbutton{
+  
+ 
+  color: rgb(228, 6, 6);
+ background-color: var(--orangcolor);
+ border: none;
+padding: 5px 10px;
+}
+.c-white{
+  color: white;
+}
+.navbar,.headercls{
+  z-index: 999;
+}
+.hov{
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.hov:hover{
+color: var(--orangcolor);
+}
+
+
+.innernav2{
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  border-bottom: 5px solid var(--orangcolor);
+     transform: translateY(10%);
+     opacity: 0;
+     transition: all 1s;
+}
+
+.innernav1{
+  overflow: hidden;
+  padding: 10px 0px;
+}
+.innernav1:hover{
+  overflow: visible;
+}
+
+.innernav1:hover div{
+  transform: translateY(0%);
+  opacity: 1;
+}
+
+.home_imgsection{
+  height:110vh;
+  z-index: 1;
+}
+
+.home_imgsection div{
+  z-index: 2;
+}
+
+@media (max-width:991px) {
+  .nav{
+    position: fixed;
+    top: 0;
+    background: white;
+    right:-100%;
+    transition: all 0.5s;
+  }
+.nav2{
+  right: 0;
+}
+
+}
