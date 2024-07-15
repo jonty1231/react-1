@@ -52,7 +52,7 @@ settoggle(!togle)
      
      </div>
 
-     <div className='position-relative px-4 innernav1 '><NavLink className="text-decoration-none text-white">NEWS<i class="fa-solid fa-chevron-down"></i> </NavLink>
+     <div className='position-relative px-4 innernav1 '><NavLink to="/blog" className="text-decoration-none text-white">NEWS<i class="fa-solid fa-chevron-down"></i> </NavLink>
          <div className='innernav2 bg-white text-dark d-flex flex-column px-4 gap-2 py-2'>
            <Link className="text-decoration-none text-dark">NEWS</Link>
            <Link className="text-decoration-none text-dark">NEWS DETAIL</Link>
