@@ -29,7 +29,7 @@ const handleNext = useCallback(() => {
 
 
   return (
-    <section className='container ms-5 ps-5 row justify-content-center  '>
+    <section className='container-fluid  row justify-content-center  '>
 <div className='col-lg-4 '>
     <div className='w-50'>
      <img src="/svg1.svg" alt=""  className='w-25'/></div>
