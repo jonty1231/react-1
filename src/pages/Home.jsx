@@ -14,6 +14,7 @@ import Elementorysec8 from '../components/Elementorysec8'
 import Elementorysec9 from '../components/Elementorysec9'
 import Elementorysec10 from '../components/Elementorysec10'
 import Elementorysec11 from '../components/Elementorysec11'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -32,6 +33,7 @@ const Home = () => {
 <Elementorysec9 />
 <Elementorysec10 />
 <Elementorysec11 />
+<Footer />
   </div>
   )
 }

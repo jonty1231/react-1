@@ -15,7 +15,7 @@ settoggle(!togle)
  
    <nav className={ `d-flex  flex-lg-row flex-column justify-content-lg-center nav ${togle ? 'nav2' : ''}` }>
    <i class="fa-solid fa-xmark d-lg-none" onClick={()=>togglenav()}></i>
-     <div className='position-relative px-4 innernav1 '><NavLink className="text-decoration-none text-white"> HOME <i class="fa-solid fa-chevron-down"></i> </NavLink>
+     <div className='position-relative px-4 innernav1 '><NavLink to="/" className="text-decoration-none text-white"> HOME <i class="fa-solid fa-chevron-down"></i> </NavLink>
          <div className='innernav2 bg-white text-dark d-flex flex-column px-4 gap-2 py-2'>
            <Link className="text-decoration-none text-dark" >Home-1</Link>
            <Link className="text-decoration-none text-dark">Home-2</Link>
@@ -26,7 +26,7 @@ settoggle(!togle)
      
      </div>
 
-     <div className='position-relative px-4 innernav1  '><NavLink className="text-decoration-none text-white">ACCOMMODATION<i class="fa-solid fa-chevron-down"></i> </NavLink>
+     <div className='position-relative px-4 innernav1  '><NavLink to="/accomedation" className="text-decoration-none text-white">ACCOMMODATION<i class="fa-solid fa-chevron-down"></i> </NavLink>
          <div className='innernav2 bg-white text-dark d-flex flex-column px-4 gap-2 py-2'>
            <Link className="text-decoration-none text-dark">ACCOMMODATION LISTING</Link>
            <Link className="text-decoration-none text-dark">ACCOMMODATION DETAIL</Link>

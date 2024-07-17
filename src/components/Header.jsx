@@ -13,7 +13,10 @@ const Header = () => {
  <i class="fa-brands fa-facebook mt-2 hov"></i>
  <i class="fa-brands fa-twitter mt-2 hov"></i>
  <i class="fa-brands fa-youtube mt-2 hov "></i>
+ <div>
+  
  <button className='hoverbutton '>Book Now</button>
+</div>
  </div>
     </div>
 

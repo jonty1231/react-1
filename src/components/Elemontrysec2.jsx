@@ -30,14 +30,14 @@ const handleNext = useCallback(() => {
 
   return (
     <section className='container-fluid  row justify-content-center  '>
-<div className='col-lg-4 '>
+<div className='col-lg-4  text-center '>
     <div className='w-50'>
      <img src="/svg1.svg" alt=""  className='w-25'/></div>
      <p className='fs-4'>Cherished your memories</p>
      <b className='w-100 fs-1'>Explore World</b>
      <p>Fermentum odio eu feugiat pretium nibh. Volutpat blandit aliquam etiam erat velit scelerisque in dictum non. Tortor id aliquet lectus proin nibh nisl condimentum id venenatis. Lectus proin nibh nisl condimentum id venenatis.</p>
 </div>
-<div className='col-lg-8  '>
+<div className='col-lg-8    '>
 <Swiper
         slidesPerView={3}
         spaceBetween={20}
@@ -46,9 +46,9 @@ const handleNext = useCallback(() => {
 
      
         breakpoints={{
-            0: {
+            1: {
               slidesPerView: 1,
-              spaceBetween: 5,
+              spaceBetween: 0,
             },
             700: {
               slidesPerView: 2,

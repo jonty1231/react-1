@@ -52,9 +52,9 @@ const [imgg,setimg]=useState([{img:"/Thumb-Slider-01.jpg",title:"Discover the Wo
           <img src={info.img} alt=""  className=' position-absolute w-100  h-100 top-0'/>
    <div className='position-relative text-white w-100 h-100 d-flex flex-column justify-content-center align-items-center'>
     <h2 className=''>{info.title}</h2>
-    <b className=' fs-1'>{info.type} </b>
+    <b className=' fs-1 text-center'>{info.type} </b>
     <img  src="/strock.svg" className="w-25 m-5" />
-    <div className='d-flex justify-content-center '> <button className=''> TRAVEL GUIDE</button> </div>
+    <div className='d-flex justify-content-center '> <button className='hoverbutton'> TRAVEL GUIDE</button> </div>
     </div></SwiperSlide>})}
      
       </Swiper>

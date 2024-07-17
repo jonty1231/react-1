@@ -5,7 +5,8 @@ const Elementorysec5 = () => {
     <section>
         <div className='my-5 ms-0 p-0 position-relative d-flex container-fluid align-items-center py-5'>
           
-        <img src="/bg-image-1.jpg" alt="" className=' w-100 position-absolute h-100  ' />
+        <img src="/bg-image-1.jpg" alt="" className=' w-100 position-absolute h-100  
+       ' />
        <div className='Elementorysec5_img'>
 
        </div>
@@ -17,7 +18,7 @@ const Elementorysec5 = () => {
        </div>
 <div className='col-lg-5  col-11 order-1 order-lg-2'>
     <div className='w-100 d-flex justify-content-center '>
-    <img src="/svg9.svg" alt=""  className='w-25 '/></div>
+    <img src="/svg9.svg" alt=""  className='w-25 rotate_img '/></div>
 </div>
 
         </div>

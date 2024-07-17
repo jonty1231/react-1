@@ -14,7 +14,7 @@ const Elementorysec9 = () => {
         </div>
         <section className='container-fluid row justify-content-center align-items-center  row-cols-lg-4 my-5 pb-5'>
 
-{data.map((info)=>{return<div className=' col-md-5 col-11 '>
+{data.map((info)=>{return<div className=' col-md-5 col-11 p-2'>
 <div className='position-relative w-100  blog_img_section2 '>
 <img src={info.img} alt=""  className='w-100  ' />
 {/* <span className='position-absolute   blog_img2_section2 '>
