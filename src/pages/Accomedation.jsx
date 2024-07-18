@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import NavBar from '../components/NavBar'
 import Elementorysec11 from '../components/Elementorysec11'
+import Footer2 from '../components/Footer2'
 
 const Accomedation = () => {
   return (
@@ -20,12 +21,12 @@ const Accomedation = () => {
     <b className='fs-1'>Explore Adventure Trips</b>
 
 </section>
-<section>
+<section> 
 <div className='row  m-0 p-0 justify-content-center gap-5 mt-5 pt-5'>
 <div className='col-md-5 col-11 accomedation_section2 m-0 p-0 '>
 <img src="/a1.jpg" alt="" className='w-100 h-75' />
-<p className=' ps-5 text-white my-2 fs-4 '>ADVETURES TRAVEL ON MOUNTAIN</p>
-<p className=' ps-5 text-white my-2 fs-3'>PRICE <strike>$99</strike> <b>$119</b> 5 DAYS TRIP</p>
+<p className=' ps-2 ps-lg-5 text-white my-2 fs-md-4 fs-5 '>ADVETURES TRAVEL ON MOUNTAIN</p>
+<p className=' ps-2  ps-lg-5 text-white my-1 fs-4'>PRICE <strike>$99</strike> <b>$119</b> 5 DAYS TRIP</p>
 </div>
 <div className='col-md-5 col-11 m-0 p-0 py-4 gap-3 d-flex flex-column justify-content-around'>
     <div>
@@ -66,8 +67,8 @@ const Accomedation = () => {
 <div className='row  m-0 p-0 justify-content-center gap-5  mt-5 pt-5'>
 <div className='col-md-5 col-11 accomedation_section2 m-0 p-0 order-1 order-md-2'>
 <img src="/a2.jpg" alt="" className='w-100 h-75' />
-<p className=' ps-5 text-white my-2 fs-4 '>ADVETURES TRAVEL ON MOUNTAIN</p>
-<p className=' ps-5 text-white my-2 fs-3'>PRICE <strike>$99</strike> <b>$119</b> 5 DAYS TRIP</p>
+<p className=' ps-2 ps-lg-5 text-white my-2 fs-md-4 fs-5 '>ADVETURES TRAVEL ON MOUNTAIN</p>
+<p className=' ps-2 ps-lg-5 text-white my-2 my-1 fs-4'>PRICE <strike>$99</strike> <b>$119</b> 5 DAYS TRIP</p>
 </div>
 <div className='col-md-5 col-11 m-0 p-0 py-4 gap-3 d-flex flex-column order-2 order-md-1 justify-content-around'>
     <div>
@@ -109,8 +110,8 @@ const Accomedation = () => {
 <div className='row  m-0 p-0 justify-content-center gap-5 mt-5 pt-5'>
 <div className='col-md-5 col-11 accomedation_section2 m-0 p-0 '>
 <img src="/a3.jpg" alt="" className='w-100 h-75' />
-<p className=' ps-5 text-white my-2 fs-4 '>ADVETURES TRAVEL ON MOUNTAIN</p>
-<p className=' ps-5 text-white my-2 fs-3'>PRICE <strike>$99</strike> <b>$119</b> 5 DAYS TRIP</p>
+<p className=' ps-2 ps-lg-5 text-white my-2 fs-md-4 fs-5'>ADVETURES TRAVEL ON MOUNTAIN</p>
+<p className='ps-2 ps-lg-5 text-white my-2 my-1 fs-4'>PRICE <strike>$99</strike> <b>$119</b> 5 DAYS TRIP</p>
 </div>
 <div className='col-md-5 col-11 m-0 p-0 py-4 gap-3 d-flex flex-column justify-content-around'>
     <div>
@@ -151,8 +152,8 @@ const Accomedation = () => {
 <div className='row  m-0 p-0 justify-content-center gap-5  mt-5 pt-5'>
 <div className='col-md-5 col-11 accomedation_section2 m-0 p-0 order-1 order-md-2'>
 <img src="/a4.jpg" alt="" className='w-100 h-75' />
-<p className=' ps-5 text-white my-2 fs-4 '>ADVETURES TRAVEL ON MOUNTAIN</p>
-<p className=' ps-5 text-white my-2 fs-3'>PRICE <strike>$99</strike> <b>$119</b> 5 DAYS TRIP</p>
+<p className='ps-2 ps-lg-5 text-white my-2 fs-md-4 fs-5'>ADVETURES TRAVEL ON MOUNTAIN</p>
+<p className=' ps-2 ps-lg-5 text-white my-1 fs-4'>PRICE <strike>$99</strike> <b>$119</b> 5 DAYS TRIP</p>
 </div>
 <div className='col-md-5 col-11 m-0 p-0 py-4 gap-3 d-flex flex-column order-2 order-md-1 justify-content-around'>
     <div>
@@ -194,9 +195,11 @@ INDIA</span></p>
 
 </section>
 <Elementorysec11 />
-
+<Footer2 />
     </div>
   )
 }
+
+
 
 export default Accomedation

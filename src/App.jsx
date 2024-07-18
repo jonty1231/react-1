@@ -3,6 +3,7 @@ import Blog from "./pages/Blog"
 import Home from "./pages/Home"
 import './App.css'
 import Accomedation from "./pages/Accomedation"
+import Destinations from "./pages/Destinations"
 
 
 function App() {
@@ -18,6 +19,10 @@ const router=createBrowserRouter([
   {
     path:"/accomedation",
     element:<Accomedation />
+  },
+  {
+    path:"/destinations",
+    element: <Destinations />
   }
 ])
 

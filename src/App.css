@@ -1,6 +1,9 @@
 :root{
   --orangcolor:#FF9933
 }
+*::selection{
+  background:#ff9933b4
+}
 body{
   overflow-x: hidden;
 }
@@ -162,7 +165,7 @@ z-index: -1
 }
 .blog_img_section2 {
 
-mask-image: url("../public/blog-mask-img-1.png");
+mask-image: url("/blog-mask-img-1.png");
 mask-size: cover;
 overflow: hidden;
 transition: all 0.5s;
@@ -174,7 +177,7 @@ transition: all 0.5s;
   transform: scale(1.1);
 }
 .blog_img2_section2{
-  background-image: url("../public/blog-mask-img.png");
+  background-image: url("/blog-mask-img.png");
   background-position: contain;
   padding: 10px;
   top: 10%;
@@ -587,10 +590,72 @@ opacity: 0.2;
   border: 2px solid black;
   border-width:  0 2px 0 2px;
 }
+.z_i2{
+ z-index: -2;
+}
+.footer_2{
+ 
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #0000007a;
+ z-index: -1;
+}
+.i_footer{
+  background: none;
+  border: none;
+  border-bottom: 0.5px solid #ffffff;
+  padding: 3px ;
+}
+.navLink{
+  color: white;
+  
+}
+
+.animetext{
+  transform: translate(-2%, 0);
+  opacity: 0;
+  transition: all 0.4s;
+}
+.animetextuper:hover .animetext{
+  transform: translate(0%, 0);
+  opacity: 1;
+}
+
+
+@media (max-width:780px) {
+  .navLink{
+    color: black;
+  }
+  .nav{
+    height: 100vh;
+    padding: 50px 5px;
+  }
+  .nav::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left:-261%;
+    height: 100%;
+    width: calc( 100vw - 100%);
+    background: #0000007e;
+  }
+}
+
 @media (max-width:500px) {
   .slide{
     height: 40px;
     overflow: hidden;
   }
-  
+  .nav::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left:-100%;
+    height: 100%;
+    width: calc( 100vw - 100%);
+    background: #0000007e;
+  }
 }
